@@ -810,7 +810,7 @@
                 .off('click').on('click', function () {
                     that.options.cardView = !that.options.cardView;
                     that.initHeader();
-                    // Fixed remove toolbar when click cardView button.
+                    // anpegar: Fixed remove toolbar when click cardView button.
                     //that.initToolbar();
                     that.initBody();
                 });
